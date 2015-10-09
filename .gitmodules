@@ -1,0 +1,6 @@
+[submodule "zaqar"]
+	path = zaqar
+	url = https://github.com/openstack/zaqar.git
+[submodule "searchlight"]
+	path = searchlight
+	url = https://github.com/liverbirdkte/searchlight.git
