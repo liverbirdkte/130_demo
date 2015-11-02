@@ -7,9 +7,8 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def main():
-    print request.form
-    print request.args
+    print request.data
     return 'OK'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=9999)
